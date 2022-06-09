@@ -1,0 +1,13 @@
+{
+  "id" : "https://am2539.github.io/Temple/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in am2539/Temple project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://am2539.github.io/Temple/manifests/temple-manifest.json",
+    "label" : "[Click to edit label]"
+  } ]
+}
