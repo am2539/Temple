@@ -1,51 +1,74 @@
 {
-  "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://am2539.github.io/Temple/manifests/temple-manifest.json",
-  "@type" : "sc:Manifest",
-  "label" : "[Click to edit label]",
-  "metadata" : [ ],
-  "description" : [ {
-    "@value" : "[Click to edit description]",
-    "@language" : "en"
-  } ],
-  "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "[Click to edit attribution]",
-  "sequences" : [ {
-    "@id" : "http://313fd7a1-9cb5-4b42-b536-f6878b7c9213",
-    "@type" : "sc:Sequence",
-    "label" : [ {
-      "@value" : "Normal Sequence",
-      "@language" : "en"
-    } ],
-    "canvases" : [ {
-      "images" : [ {
-        "resource" : {
-          "@type" : "dctypes:Image",
-          "service" : {
-            "profile" : "http://iiif.io/api/image/2/level1.json",
-            "@id" : "https://images.lib.cam.ac.uk/iiif/PH-NRI-00002-00010-00001-00001-00001-000-00010.jp2",
-            "@context" : "http://iiif.io/api/image/2/context.json"
-          },
-          "format" : "image/jpg",
-          "width" : 6804,
-          "@id" : "https://images.lib.cam.ac.uk/iiif/PH-NRI-00002-00010-00001-00001-00001-000-00010.jp2",
-          "height" : 4542
-        },
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : "https://cudl.lib.cam.ac.uk/iiif/PH-NRI-00002-00010-00001-00001-00001/canvas/10"
-      } ],
-      "@type" : "sc:Canvas",
-      "width" : 6804,
-      "@id" : "https://cudl.lib.cam.ac.uk/iiif/PH-NRI-00002-00010-00001-00001-00001/canvas/10",
-      "label" : "1/10",
-      "height" : 4542,
-      "related" : {
-        "@id" : "https://cudl.lib.cam.ac.uk/iiif/PH-NRI-00002-00010-00001-00001-00001",
-        "label" : "SZE - Szechuan (Sichuan) Province 四川省 (NRI2/10/1/1/1)",
-        "format" : ""
-      }
-    } ]
-  } ],
-  "structures" : [ ]
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "https://am2539.github.io/Temple/manifests/temple-manifest.json",
+	"@type": "sc:Manifest",
+	"label": "Parker Library MS 66 and Cambrige University Library MS FF.1.27: A Durham Manuscript Reconstructed",
+	"attribution": "Images Licensed under Creative Commons Attribution-NonCommercial 4.0 International Licenses. For higher resolution images suitable for scholarly or commercial publication, either in print or in an electronic format, please contact the Parker Library directly at parker-library@corpus.cam.ac.uk",
+	"description": "A demonstration built for the 2019 IIIF conference to illustrate the possibility of reconstructing a manuscript which was split, and shuffled, over 400 years ago. Sections of the manuscript now reside in two different IIIF-compliant institutions.",
+	"seeAlso": {
+		"@id": "https://purl.stanford.edu/jb848tp9919.mods",
+		"profile": "application/mods+xml"
+	},
+	"metadata": [{
+			"label": "Scribal centre",
+			"value": "Sawley or Durham"
+		},
+		{
+			"label": "Date",
+			"value": "1100 - 1200"
+		},
+		{
+			"label": "Extent",
+			"value": "ff. 165 Leaf height: 305 mm, width: 229 mm. Written height: 240 mm, width: 160 mm."
+		},
+		{
+			"label": "Material",
+			"value": "Parchment"
+		},
+		{
+			"label": "Current Physical Location",
+			"value": "The Parker University, Corpus Christi College, Cambridge, and Cambridge University Library"
+		}
+	],
+
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [{
+		"@id": "http://313fd7a1-9cb5-4b42-b536-f6878b7c9213",
+		"@type": "sc:Sequence",
+		"label": [{
+			"@value": "Normal Sequence",
+			"@language": "en"
+		}],
+		"canvases": [{
+			"images": [{
+				"resource": {
+					"@type": "dctypes:Image",
+					"service": {
+						"profile": "http://iiif.io/api/image/2/level1.json",
+						"@id": "https://images.lib.cam.ac.uk/iiif/PH-NRI-00002-00010-00001-00001-00001-000-00010.jp2",
+						"@context": "http://iiif.io/api/image/2/context.json"
+					},
+					"format": "image/jpg",
+					"width": 6804,
+					"@id": "https://images.lib.cam.ac.uk/iiif/PH-NRI-00002-00010-00001-00001-00001-000-00010.jp2",
+					"height": 4542
+				},
+				"@type": "oa:Annotation",
+				"motivation": "sc:painting",
+				"on": "https://cudl.lib.cam.ac.uk/iiif/PH-NRI-00002-00010-00001-00001-00001/canvas/10"
+			}],
+			"@type": "sc:Canvas",
+			"width": 6804,
+			"@id": "https://cudl.lib.cam.ac.uk/iiif/PH-NRI-00002-00010-00001-00001-00001/canvas/10",
+			"label": "1/10",
+			"height": 4542,
+			"related": {
+				"@id": "https://cudl.lib.cam.ac.uk/iiif/PH-NRI-00002-00010-00001-00001-00001",
+				"label": "SZE - Szechuan (Sichuan) Province 四川省 (NRI2/10/1/1/1)",
+				"format": ""
+			}
+		}]
+	}],
+	"structures": []
 }
