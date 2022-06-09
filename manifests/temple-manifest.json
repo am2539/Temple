@@ -1,0 +1,51 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://am2539.github.io/Temple/manifests/temple-manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://313fd7a1-9cb5-4b42-b536-f6878b7c9213",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "images" : [ {
+        "resource" : {
+          "@type" : "dctypes:Image",
+          "service" : {
+            "profile" : "http://iiif.io/api/image/2/level1.json",
+            "@id" : "https://images.lib.cam.ac.uk/iiif/PH-NRI-00002-00010-00001-00001-00001-000-00010.jp2",
+            "@context" : "http://iiif.io/api/image/2/context.json"
+          },
+          "format" : "image/jpg",
+          "width" : 6804,
+          "@id" : "https://images.lib.cam.ac.uk/iiif/PH-NRI-00002-00010-00001-00001-00001-000-00010.jp2",
+          "height" : 4542
+        },
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://cudl.lib.cam.ac.uk/iiif/PH-NRI-00002-00010-00001-00001-00001/canvas/10"
+      } ],
+      "@type" : "sc:Canvas",
+      "width" : 6804,
+      "@id" : "https://cudl.lib.cam.ac.uk/iiif/PH-NRI-00002-00010-00001-00001-00001/canvas/10",
+      "label" : "1/10",
+      "height" : 4542,
+      "related" : {
+        "@id" : "https://cudl.lib.cam.ac.uk/iiif/PH-NRI-00002-00010-00001-00001-00001",
+        "label" : "SZE - Szechuan (Sichuan) Province 四川省 (NRI2/10/1/1/1)",
+        "format" : ""
+      }
+    } ]
+  } ],
+  "structures" : [ ]
+}
